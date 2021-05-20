@@ -7,7 +7,6 @@ screenSize = "279x442"
 window.geometry(screenSize)
 window.resizable(0, 0)
 window.title("Calculator")
-#function
 
 def clickButton(item):
     global expression
