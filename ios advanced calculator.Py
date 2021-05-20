@@ -95,7 +95,7 @@ nine = Button(mainFrame, text="9", fg="black", image=nineimage, bd=0, bg="black"
 
 multi = PhotoImage(file = r"images\multi.png")
 multiimage = multi.subsample(4,4)
-multiply = Button(mainFrame, text="*", fg="white",image=multiimage, bd=0, bg="black", cursor="hand2",
+multiply = Button(mainFrame, text="x", fg="white",image=multiimage, bd=0, bg="black", cursor="hand2",
                   command=lambda: clickButton("*")).grid(row=1, column=3, padx=1, pady=1)
 
 four = PhotoImage(file = r"images\four.png")
